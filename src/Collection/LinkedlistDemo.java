@@ -11,6 +11,7 @@ public class LinkedlistDemo {
 			obj.add(i);
 		}
 		System.out.println(obj);
+		System.out.println("hi");
 
 	}
 
