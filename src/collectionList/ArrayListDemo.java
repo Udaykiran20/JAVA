@@ -1,4 +1,4 @@
-package Collection;
+package collectionList;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Iterator;
@@ -47,6 +47,7 @@ public class ArrayListDemo {
 		while(a.hasNext()) {
 			System.out.println(a.next());
 		}
+		
 		Vector<Character> v = new Vector<Character>();
 		
 		v.add('h');
