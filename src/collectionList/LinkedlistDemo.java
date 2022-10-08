@@ -23,7 +23,10 @@ public class LinkedlistDemo {
 		
 		System.out.println(obj);
 		
-		Iterator<Integer> li = obj.iterator();
+		//for(int i:obj)
+			//System.out.println(li);
+		
+		/*Iterator<Integer> li = obj.iterator();
 		while(li.hasNext()) {
 			System.out.println(li.next());
 		}
@@ -35,7 +38,9 @@ public class LinkedlistDemo {
 		System.out.println("index of object______9_____"+obj.indexOf(9));
 		//this method ends at first matched value only.
 		System.out.println(obj.lastIndexOf(7)+"_________last index method");
+		*/
 		
+		//List<Integer> o= obj.stream().filter(x->x.get)
 		
 
 	}
