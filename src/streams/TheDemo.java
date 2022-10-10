@@ -22,7 +22,7 @@ public class TheDemo {
 		li.add(1);
 		System.out.println(li);
 		
-		//filter takes functional interface of preidicate and takes input and works as boolean expression.
+		//filter takes functional interface of predicate and takes input and works as boolean expression.
 		System.out.println("---with filter method---");
 	List<Integer> obj =	li.stream().filter(x->x<0).collect(Collectors.toList());
 		System.out.println(" the negative numbers are :"+obj); 	// for printing we need to declare the list object again -:).
