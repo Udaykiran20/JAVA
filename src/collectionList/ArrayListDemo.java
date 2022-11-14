@@ -6,9 +6,15 @@ import java.util.Vector;
 public class ArrayListDemo {
 
 	public static void main(String[] args) {
-		
+		//it follows insertion order
+		//indexing is also possible
+		//allows duplicate values(in list interface )
 		ArrayList<String> al = new ArrayList<String>();
-		
+		//it follows insertion order
+		//initial size is 10
+		//used to retrieve the records
+		//methods are non-synchronized
+		//allows the duplicates
 		al.add("u");
 		al.add("d");
 		al.add("a");
@@ -17,6 +23,7 @@ public class ArrayListDemo {
 		al.add("i");
 		al.add("r");
 		al.add("a");
+		al.add("n");
 		al.add("n");
 		System.out.println("printing without iterator");
 		System.out.println(al);
@@ -27,7 +34,10 @@ public class ArrayListDemo {
 		}
 	
 		LinkedList<Integer> li = new LinkedList<Integer>();
-		
+		//follows insertion order
+		//allows duplicates
+		//no initial size
+		//used for searching element from records
 		li.add(1);
 		li.add(2);
 		li.add(3);
@@ -49,7 +59,8 @@ public class ArrayListDemo {
 		}
 		
 		Vector<Character> v = new Vector<Character>();
-		
+		//synchronized methods
+		//allows duplicates
 		v.add('h');
 		v.add('e');
 		v.add('l');
@@ -59,6 +70,7 @@ public class ArrayListDemo {
 		v.add('o');
 		v.add('r');
 		v.add('l');
+		v.add('d');
 		v.add('d');
 		System.out.println(v);
 		System.out.println();

@@ -16,11 +16,11 @@ public class Hashmap {
 		hm.put("VOLKSWAGEN",30.5f);
 		
 		System.out.println(hm);
-		System.out.println("-------");
+		System.out.println("-------"); 
 		
 		Set obj = hm.entrySet();
 		
-		Iterator<?> i = obj.iterator();//using iterator in maps
+		Iterator i = obj.iterator();//using iterator in maps
 		while(i.hasNext())
 			System.out.println(i.next());
 

@@ -1,7 +1,8 @@
 package interfaces__;
 
 public interface DogDemo1 {
-	void bark();
+	void bark(int age);
+	
 	static void eat() {
 		System.out.println("eats pedigri");
 	}

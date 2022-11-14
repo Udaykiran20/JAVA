@@ -1,4 +1,4 @@
-package abstract_;
+   package abstract_;
 abstract class hospital{
 	abstract void heart();
 	abstract void brain();

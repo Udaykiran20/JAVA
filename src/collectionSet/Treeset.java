@@ -20,8 +20,8 @@ public class Treeset {
 		System.out.println("lower method_____9___"+ts.lower(9));
 		System.out.println("celing method____5___"+ts.ceiling(5));
 		System.out.println("floor method_____3___"+ts.floor(3));
-		System.out.println("higher method____9___"+ts.higher(9));
-		System.out.println("pool first method____"+ts.pollFirst());
+		System.out.println("higher method____8___"+ts.higher(8));
+		System.out.println("pool first method____"+ts.pollFirst()); 
 		System.out.println("pool last method_____"+ts.pollLast());
 		System.out.println("head set_____________"+ts.headSet(9, false));
 		System.out.println("subset method___1__3_"+ts.subSet(1, 3));

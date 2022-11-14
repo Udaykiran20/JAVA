@@ -11,6 +11,7 @@ public class NullPointerExe {
 		try 
 		{
 		System.out.println("inside the try block ");
+		System.out.println();
 		System.out.println(exe.length());
 		System.out.println();
 		

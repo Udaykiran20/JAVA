@@ -10,7 +10,7 @@ public class Treemap {
 		TreeMap<Integer,Character> tm = new TreeMap<Integer,Character>();
 		tm.put(4, 'a');
 		tm.put(6, 'u');
-		tm.put(3, 't');
+		tm.put(3, 't'); 
 		tm.put(2, 'o');
 		tm.put(5, 'm');
 		tm.put(1, 'o');

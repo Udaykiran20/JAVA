@@ -2,7 +2,9 @@ package interfaces__;
 
 interface animals{
 	void name();
-	public interface wildanimals extends animals{
+
+	
+interface wildanimals extends animals{
 		void presentstate();
 	}
 }
@@ -24,7 +26,7 @@ public class NestedInterface {
 	public static void main(String[] args) {
 		
 		animals.wildanimals obj = new Lion();
-		obj.presentstate();
+		obj.presentstate(); 
 		obj.name();
 
 

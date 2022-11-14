@@ -10,7 +10,7 @@ abstract class vehicle{
 }
 	class Audi extends vehicle{
 
-		@Override
+		@Override 
 		void cost() {
 			// TODO Auto-generated method stub
 			System.out.println("the cost of audi is 50laks");

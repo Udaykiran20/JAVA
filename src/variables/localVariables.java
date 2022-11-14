@@ -1,9 +1,12 @@
 package variables;
+
+import java.util.Scanner;
+
 public class localVariables {
 
 	public static void main(String[] args) {
-		
-		String name = "uday";		
+		Scanner sc = new Scanner(System.in);
+		String name = sc.next();		
 		 int id =765999832;
 		 float gpa = 7.1f;
 		 double adderess = 12_23;

@@ -1,5 +1,7 @@
 package factoryMethod;
 
+import java.util.Scanner;
+
 abstract class Car{
 	abstract void cost();
 	abstract void mileage();
@@ -28,7 +30,7 @@ class Ferrari extends Car{
 	}	
 }
 class Carfactory {
-	Car getCar(String carname) {
+	static Car getCar(String carname) {
 		if(carname.equals("Audi")) {
 			return new Audi();
 		}
@@ -43,8 +45,10 @@ public class FactorymethodDemo{
 	
 	public static void main(String[] args) {
 		Carfactory obj = new Carfactory();
-		Car c = obj.getCar("Ferrari"); //creating object with method name
-									// and return type is class name	
+	Car c = Carfactory.getCar("Ferrari"); //creating object with method name
+		Scanner input = new Scanner(System.in);
+		System.out.println("enter the car name");
+		//Car c = obj.getCar(input.next());		// and return type is class name	
 		c.cost();
 		c.speed();
 		c.mileage();

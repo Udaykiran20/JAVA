@@ -1,5 +1,5 @@
 package exceptionHandling;
-import java.util.*;
+import java.util.Scanner;
 
 public class ArrayOut_Of_Index {
 

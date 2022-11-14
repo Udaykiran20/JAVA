@@ -15,7 +15,7 @@ public class setDemo {
 		hs.add("kalyan");
 		hs.add("vamsi");
 		hs.add("chinni");
-		//System.out.println(hs);
+		//System.out.println(hs); 
 		
 		for(int i = 0; i<1;i++)
 			System.out.println(hs);

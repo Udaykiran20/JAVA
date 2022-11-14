@@ -12,7 +12,7 @@ class Scannia implements vehicles.Lorry{
 	@Override
 	public void type_of_vehicle() {
 	System.out.println("Heavy load carrier");
-		
+		 
 	}
 
 	@Override

@@ -9,12 +9,12 @@ public class Linkedhashmap {
 		hm.put(306, "eicher");
 		hm.put(308, "ashokleyland");
 		hm.put(309, "tata");
-		hm.put(314, "bharathbenz");
+		hm.put(314, "bharathbenz"); 
 		System.out.println(hm);
 		Object j = hm.clone();
 		System.out.println(j);
 		System.out.println("does 333 key is contains : "+hm.containsKey(333));
-		hm.replace(308, "ashokleyland");
+		hm.replace(308, "ashok");
 		System.out.println("replacing the item "+hm);
 		System.out.println(hm.get(306));
 		hm.remove(306);

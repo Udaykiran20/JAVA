@@ -99,8 +99,10 @@ public class FactoryDemo2 {
 	public static void main(String[] args) {
 		
 		details obj = new details();
-		
-		specifications_of_Bajaj obj1 = obj.getdetails("pulsar_N250");
+		Scanner input = new Scanner(System.in);
+		System.out.println("enter the car name");
+		String c = input.next();
+		specifications_of_Bajaj obj1 = obj.getdetails(c);
 		
 		obj1.engine();
 		obj1.torque();

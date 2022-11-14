@@ -27,8 +27,8 @@ public class GenericsWithDual {
 		 Details<Double,Character> i = new Details<>();
 		 i.details(4563.45,'O');
 		 
-
-		
+		 Details<String, String> s = new Details<>();
+		 s.details("kdasj", "");
 	}
 
 }

@@ -16,6 +16,8 @@ public class MultiGenerics {
 		
 		trio<Integer,String,Float,Character> obj = new trio<>(); // object creation
 		obj.multiple(7, "uday", 5.99f, 'J');
+		
+		System.out.println(obj);
 	}
 
 }

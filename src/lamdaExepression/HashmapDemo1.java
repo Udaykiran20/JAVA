@@ -1,5 +1,6 @@
 package lamdaExepression;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -17,18 +18,21 @@ public class HashmapDemo1 {
 		obj.put(200, "innova");
 		obj.put(440, "duster");
 		
+		ArrayList<Integer> obj1 = new ArrayList<Integer>();
+		obj1.add(1);
+		obj1.forEach(System.out::println);
+		
 		System.out.println();
 		
 		System.out.println(obj);
 		System.out.println();
 		System.out.println("with for each method");
-		System.out.println();
-		//System.out.println("after the lamda expression");
-		//obj.forEach((key,value)->System.out.println(key+" "+value)); //using lambda expression
+		System.out.println("after the lamda expression");
+		obj.forEach((key,value)->System.out.println(key+" "+value)); //using lambda expression
 		
-		for(Map.Entry<Integer, String> me : obj.entrySet()) {
-			System.out.println(me.getKey()+" "+ me.getValue());		//working in maps only 
-		}
+//		for(Map.Entry<Integer, String> me : obj.entrySet()) {
+//			System.out.println(me.getKey()+" "+ me.getValue());		//working in maps only 
+//		}
 	}
 
 }

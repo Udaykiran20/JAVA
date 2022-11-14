@@ -29,7 +29,7 @@ public class TheDemo {
 		
 		//to add some value and get return the updated values we use map and it takes the function interface
 		//it is used to transforming the data
-		System.out.println("---with map method---");
+		System.out.println("---with map method---"); 
 		List<Integer> obj1 = li.stream().map(v->(v+2)).collect(Collectors.toList());
 			System.out.println(obj1);
 			obj1=li.stream().filter(v->v>0).collect(Collectors.toList());
