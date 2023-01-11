@@ -1,8 +1,10 @@
 package collectionList;
 
+import java.util.Iterator;
 //import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.ListIterator;
 
 public class LinkedlistDemo {
 
@@ -21,7 +23,12 @@ public class LinkedlistDemo {
 		obj.add(2);
 		obj.add(7);
 		
-		System.out.println(obj);
+//		System.out.println(obj);
+//		Iterator<Integer> li = obj.iterator();
+		
+		ListIterator<Integer> li = (ListIterator<Integer>)obj.iterator();
+		while(li.hasNext()) {
+			System.out.println(li.next());}
 		
 		//for(int i:obj)
 			//System.out.println(li);

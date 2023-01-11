@@ -1,6 +1,7 @@
 package collectionList;
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.ListIterator;
 import java.util.Iterator;
 import java.util.Vector;
 public class ArrayListDemo {
@@ -52,7 +53,7 @@ public class ArrayListDemo {
 		System.out.println(li.indexOf(6)+"________index method");
 		System.out.println(li.lastIndexOf(li)+" ______last index of object");
 		
-		Iterator<Integer> a = li.iterator();
+		ListIterator<Integer> a = (ListIterator<Integer>)li.iterator();
 		System.out.println("with the iteration method");
 		while(a.hasNext()) {
 			System.out.println(a.next());

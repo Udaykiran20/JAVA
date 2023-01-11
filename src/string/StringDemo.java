@@ -18,7 +18,7 @@ public class StringDemo {
 		System.out.println(a.toUpperCase());
 		System.out.println(a.toLowerCase());
 		
-		String y = "hello world";
+		String y = "hello world"; 
 		
 		System.out.println(y.substring(2)+"___substring"); //for removing the values
 		System.out.println(y.substring(1, 9));
