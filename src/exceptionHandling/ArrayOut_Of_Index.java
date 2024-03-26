@@ -23,6 +23,7 @@ public class ArrayOut_Of_Index {
 			System.out.println();
 			System.out.println("array out of index from finally block");
 		}
+		
 
 	}
 

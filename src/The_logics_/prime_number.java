@@ -7,10 +7,10 @@ public class prime_number {
 	public static void main(String[] args) {
 		while(true) {
 			String choice;
-//		Scanner in = new Scanner(System.in);
-//		System.out.println("enter the numer : ");
-//		int x = in.nextInt();
-			int x=10;
+		Scanner in = new Scanner(System.in);
+		System.out.println("enter the numer : ");
+		int x = in.nextInt();
+//			int x=10;
 		int y=0;
 		if(x>1) {
 			for(int i=1;i<=x;i++) 
@@ -27,7 +27,7 @@ public class prime_number {
 			}else 
 			{
 				System.out.println("it is not a prime number");
-				continue;
+				
 			}
 			
 		}

@@ -16,7 +16,7 @@ public class factorial_sum {
 			sum=sum+fact;
 			n=n/10;
 		}
-		System.out.println(sum);
+		System.out.println("sum is = "+sum);
 	}
 
 }

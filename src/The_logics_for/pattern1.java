@@ -17,18 +17,18 @@ public class pattern1 {
 //			}
 //			System.out.println();
 //		}
-		int a=0, b=1,tem=0;
-		for(int i=1;i<5;i++) {
-			for(int j=1;j<=i;j++) {
-				if(a<=34) {
-					tem=a+b;
-					System.out.print(" "+a);
-					a=b;
-					b=tem;
-				}
-			}
-			System.out.println();
-		}
+//		int a=0, b=1,tem=0;
+//		for(int i=1;i<5;i++) {
+//			for(int j=1;j<=i;j++) {
+//				if(a<=34) {
+//					tem=a+b;
+//					System.out.print(" "+a);
+//					a=b;
+//					b=tem;
+//				}
+//			}
+//			System.out.println();
+//		}
 		
 		for(int i=1;i<5;i++) {
 			for(int j=1;j<=i;j++) {
